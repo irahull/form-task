@@ -1,0 +1,20 @@
+.authToggle{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 999px;
+    display: flex;
+    align-items: center;
+    button{
+
+        border-radius: 999px;
+        padding: 7px 0px;
+        width: 50%;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        background-color: transparent;
+    }
+    .active{
+        background-color: cyan;
+    }
+}

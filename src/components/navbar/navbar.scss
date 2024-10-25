@@ -1,0 +1,41 @@
+.navbarWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+
+  h2 {
+    cursor: pointer;
+    color: black;
+  }
+  .navLinks {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    li {
+      cursor: pointer;
+      text-transform: capitalize;
+    }
+    .active {
+      border-bottom: 2px solid #49557e;
+    }
+  }
+  .navRight {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    a {
+      button {
+        outline: none;
+        padding: 8px 25px;
+        border-radius: 9999px;
+        cursor: pointer;
+        font-family: Poppins;
+  
+        border: 1px solid lightgray;
+        background-color: transparent;
+      }
+    }
+  }
+}

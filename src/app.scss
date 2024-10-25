@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+
+li {
+  list-style: none;
+  font-size: 14px;
+}
+p, label{
+  font-size: 14px;
+}
+button{
+  cursor: pointer;
+  padding: 9px 20px;
+  border: none;
+  outline: none;
+  font-family: Poppins;
+
+}
+input, select{
+  font-family: Poppins;
+  outline: none;
+  border: 1px solid gray;
+  padding: 8px 10px;
+  font-size: 15px;
+  border-radius: 3px;
+}
+body {
+  font-family: Poppins;
+  overflow-x: hidden;
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 999px;
+  }
+}

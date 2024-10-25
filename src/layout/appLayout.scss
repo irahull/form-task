@@ -1,0 +1,15 @@
+.layout-main {
+  width: 100%;
+  margin: 0px auto;
+  position: relative;
+
+  .navbar {
+    margin: 0px auto;
+    max-width: 1280px;
+  }
+  .content {
+    margin: 0px auto;
+    max-width: 1280px;
+    min-height: 80vh;
+  }
+}

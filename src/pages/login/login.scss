@@ -1,0 +1,33 @@
+.loginWrapper {
+  width: 100%;
+
+  .loginBox {
+    width: 50%;
+    margin: 30px auto;
+    .loginForm {
+      width: 100%;
+      margin-top: 25px;
+      .loginEMail,
+      .loginPassword {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+      }
+      .resetPass {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        font-size: 14px;
+        margin: 5px 0px;
+        cursor: pointer;
+      }
+      .loginBtn {
+        margin-top: 10px;
+        width: 100%;
+        background-color: cyan;
+        border-radius: 999px;
+        color: black;
+      }
+    }
+  }
+}
